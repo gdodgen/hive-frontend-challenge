@@ -14,3 +14,14 @@ npm install
 npm run start
 ```
 The project will automatically open in your browser
+
+## Component Props
+
+| Prop      | Description | Type | Required | Default |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| options | Array of options for the dropdown | array |Yes |
+| onSelect | onSelect callback | function | Yes | 
+|isMultiselect| Used to indicate single or multiple select style dropdown | Boolean | No | false |
+|label| Label that appears above the dropdown | string | No | none |
+|placeholder| Text that appears inside the menu before selecting an option | string | No | "Select" |
+|width| Used to set custom width of the drowdown element in pixels | number | No | 180 |

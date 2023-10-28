@@ -48,7 +48,7 @@ export default function ExamplePage(){
           <tbody>
             <tr>
               <td>options</td>
-              <td>array of options for the dropdown</td>
+              <td>Array of options for the dropdown</td>
               <td>array</td>
               <td>Yes</td>
               <td></td>
