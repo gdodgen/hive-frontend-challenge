@@ -1,5 +1,5 @@
 # Hive Frontend Engineer Challenge
-a demo of my dropdown component. 
+My dropdown component and a demo page
 
 ## Local Setup:
 1. Download and Install Node.js for your operating system if you do not have it [(Latest Download)](https://nodejs.org/en/download/current)
