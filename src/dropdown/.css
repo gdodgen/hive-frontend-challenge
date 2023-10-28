@@ -1,0 +1,77 @@
+.dropdown-menu{
+    cursor: pointer;
+    font-family: Arial;
+}
+.label{
+    width: fit-content;
+    cursor: default;
+    color:#484a4f ;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.selected{
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 10px;
+    line-height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    border-color: #b4bcc9;
+    color:#484a4f;
+    max-height: 35px;
+    /* width: 80%; */
+}
+.selected-text{
+    display: inline-block;
+    overflow-inline: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: "...";
+    /* margin-right: 10px; */
+    /* left: -20px;
+    width: 100%; */
+}
+.pointer{
+    position: relative;
+    top:7px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.options-wrapper{
+    position: relative;
+    width: 99%;
+}
+.optionsList{
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    border-style:solid;
+    border-width:1px;
+    border-radius: 4px;
+    background-color: white;
+    border-color: #b4bcc9;
+    color:#484a4f;
+    overflow-y:auto;
+    max-height: 200px;
+}
+.option{
+    padding: 10px;
+    margin: 2px;
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: white;
+}
+.option-selected{
+    padding: 10px;
+    margin: 2px;
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: #7aa8f4;
+}
+.option-selected:hover{
+    background-color: #6c92d4;;   
+}
+.option:hover{
+    background-color: lightgray;
+}
